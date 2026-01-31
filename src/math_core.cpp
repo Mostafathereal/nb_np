@@ -15,3 +15,10 @@ std::vector<int> fibonacci_sequence(int n){
     return fib_seq;
 
 }
+
+void double_values(double* arr, size_t count){
+    for (size_t i = 0; i < count; i++){
+        arr[i] *= 2;
+
+    }
+}
