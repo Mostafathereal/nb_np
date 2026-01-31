@@ -13,5 +13,14 @@ int main(){
     }
     std::cout << std::endl;
 
+    double arr[] = {1.0, 2.0, 3.0, 4.0, 5.0};
+    size_t count = sizeof(arr) / sizeof(arr[0]);
+    double_values(arr, count);
+    std::cout << "Doubled values: ";
+    for (size_t i = 0; i < count; i++){
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }
